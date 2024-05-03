@@ -1,0 +1,38 @@
+p{
+  font-size: 2rem;
+  width: 10rem;
+}
+h3{
+  min-height: 30px;
+  background-color: blueviolet;
+
+  margin-bottom: 50px;
+}
+h2{
+  max-height: 30px;
+  background-color: rgb(55, 43, 226);
+
+  margin-bottom: 50px;
+}
+.test{
+  min-width: 500px;
+  height: 200px;
+  background-color: aqua;
+}
+.p{
+  /* width: max-content; */
+  width: fit-content;
+  background-color: brown;
+}
+.pr{
+  width: min-content;
+  background-color: rgb(42, 165, 83);
+}
+
+@media screen  and (max-width : 992px){
+
+  html{
+    font-size: 10px;
+  }
+  
+}
